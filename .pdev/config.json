@@ -1,0 +1,6 @@
+{
+  "projectRoot": "/Users/flink/PycharmProjects/parallel-dev-mcp/test-demo",
+  "mainBranch": "main",
+  "maxWorkers": 3,
+  "autoMerge": true
+}

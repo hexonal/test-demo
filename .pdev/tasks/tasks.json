@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "添加 getUserById 方法",
+      "description": "在 UserService 类中添加 getUserById 方法，用于根据 ID 查询用户",
+      "priority": "high",
+      "status": "pending",
+      "dependencies": []
+    },
+    {
+      "id": "2", 
+      "title": "添加 updateUser 方法",
+      "description": "在 UserService 类中添加 updateUser 方法，用于更新用户信息",
+      "priority": "high",
+      "status": "pending",
+      "dependencies": []
+    },
+    {
+      "id": "3",
+      "title": "添加 deleteUser 方法", 
+      "description": "在 UserService 类中添加 deleteUser 方法，用于删除用户",
+      "priority": "high",
+      "status": "pending",
+      "dependencies": []
+    }
+  ],
+  "metadata": {
+    "projectName": "conflict-test",
+    "createdAt": "2024-12-09T17:30:00Z",
+    "version": "1.0.0"
+  }
+}
