@@ -19,4 +19,18 @@ export class UserService {
   getUserById(id: number): User | undefined {
     return this.users.find(user => user.id === id);
   }
+
+  /**
+   * 删除用户
+   * @param id 要删除的用户 ID
+   * @returns 删除成功返回 true，用户不存在返回 false
+   */
+  deleteUser(id: number): boolean {
+    const index = this.users.findIndex(user => user.id === id);
+    if (index === -1) {
+      return false;
+    }
+    this.users.splice(index, 1);
+    return true;
+  }
 }
