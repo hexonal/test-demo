@@ -9,5 +9,14 @@ export interface User {
 }
 
 export class UserService {
-  // 基础用户服务，Worker 将在此添加方法
+  private users: User[] = [];
+
+  /**
+   * 根据 ID 查询用户
+   * @param id 用户 ID
+   * @returns 匹配的用户，如果未找到则返回 undefined
+   */
+  getUserById(id: number): User | undefined {
+    return this.users.find(user => user.id === id);
+  }
 }
